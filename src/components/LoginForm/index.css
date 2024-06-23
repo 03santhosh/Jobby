@@ -1,0 +1,61 @@
+.loginform-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginform-container {
+  background-color: #272727;
+  min-height: 70vh;
+  width: 40vw;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.website-logo {
+  height: 10vh;
+  align-self: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.form-label {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.form-input {
+  background-color: transparent;
+  border: #475569 solid 1.5px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  padding: 13px;
+  outline: none;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.login-button {
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 10px;
+}

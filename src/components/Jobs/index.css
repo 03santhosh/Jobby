@@ -1,0 +1,67 @@
+.jobs-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 35px 60px;
+  display: flex;
+}
+.sort-by-conatainer {
+  max-width: 265px;
+}
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: #475569 solid 1px;
+}
+.employmenttype-heading {
+  color: #f8fafc;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.employmenttype-list {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.label {
+  color: aliceblue;
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.job-details-container {
+  margin-left: 40px;
+}
+.search-container {
+  display: flex;
+  border: #64748b solid 1.5px;
+  border-radius: 3px;
+  width: 50%;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  width: 30vw;
+  font-size: 15px;
+  font-weight: 600;
+  color: #64748b;
+}
+.search-btn {
+  background-color: #272727;
+  border: none;
+  outline: none;
+  width: 4.5vw;
+}
+.search-icon {
+  color: white;
+  font-size: 17px;
+}
+.jobslist-container {
+  margin-top: 30px;
+  padding: 0px;
+}
