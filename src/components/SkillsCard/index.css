@@ -20,16 +20,15 @@
   align-self: center;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .skill-list-card {
-  width: 50%;
-  margin-bottom: 50px;
-}
-.skill-list-img {
-  height: 4vh;
-}
-.skill-list-name {
-  font-size: 15px;
-}
-
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .skill-list-img {
+    height: 4vh;
+  }
+  .skill-list-name {
+    font-size: 15px;
+  }
 }
