@@ -21,7 +21,7 @@ class ProfileDetails extends Component {
   getProfile = async () => {
     const jwtToken = Cookies.get('jwt_token')
     this.setState({apiStatus: apiStatusConstants.inProgress})
-    const url = ' https://apis.ccbp.in/profile'
+    const url = 'https://apis.ccbp.in/profile'
     const options = {
       method: 'GET',
       headers: {
@@ -61,7 +61,11 @@ class ProfileDetails extends Component {
 
   renderFailureView = () => (
     <div>
-      <button type="button" className="retry-btn" onClick={this.getProfile}>
+      <button
+        type="button"
+        className="profile-retry-btn"
+        onClick={this.getProfile}
+      >
         Retry
       </button>
     </div>

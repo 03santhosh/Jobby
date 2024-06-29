@@ -1,9 +1,14 @@
 .nav-container {
-  height: 17vh;
+  height: 15vh;
   padding: 20px 50px;
   background-color: #272727;
+}
+.nav-largedevice-container {
   display: flex;
   justify-content: space-between;
+}
+.nav-smalldevice-container {
+  display: none;
 }
 .website-logo {
   height: 8vh;
@@ -38,4 +43,36 @@
 }
 .links {
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    height: 10vh;
+    padding: 20px;
+  }
+  .nav-smalldevice-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-largedevice-container {
+    display: none;
+  }
+  .website-logo {
+    height: 4.5vh;
+  }
+  .navigate-link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+  }
+  .navigation-link {
+    align-self: center;
+  }
+  .header-icons {
+    color: #f1f5f9;
+    font-size: 23px;
+  }
+  .logout-btn {
+    background-color: transparent;
+  }
 }

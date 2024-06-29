@@ -2,7 +2,6 @@
   list-style-type: none;
   background-color: #272727;
   border-radius: 10px;
-  min-height: 60vh;
   width: 66vw;
   margin-bottom: 30px;
   padding: 25px;
@@ -72,6 +71,12 @@
   font-size: 20px;
   font-family: 'Roboto';
 }
+.job-horizontal-line {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: #7e858e solid 1px;
+}
 .job-description-heading {
   color: #cbd5e1;
   font-weight: 500;
@@ -84,4 +89,59 @@
   font-size: 14px;
   line-height: 2;
   font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-list {
+    width: 100%;
+    padding: 25px 15px;
+  }
+  .company-logo {
+    height: 8vh;
+  }
+  .job-title {
+    font-size: 18px;
+  }
+  .rating-container {
+    margin-top: 15px;
+  }
+  .star {
+    font-size: 15px;
+  }
+  .job-rating {
+    margin-left: 5px;
+    font-size: 17px;
+  }
+  .location-jobtype-package-container {
+    margin-top: 20px;
+  }
+  .location-container {
+    margin-right: 13px;
+  }
+  .icons {
+    font-size: 15px;
+    margin-right: 6px;
+    align-self: center;
+  }
+  .loc-jobtype-text {
+    font-size: 11px;
+  }
+  .jobtype-container {
+    margin-right: 13px;
+  }
+  .job-package {
+    font-size: 18px;
+  }
+  .job-horizontal-line {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .job-description-heading {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .job-description {
+    font-size: 11.5px;
+    line-height: 1.5;
+  }
 }

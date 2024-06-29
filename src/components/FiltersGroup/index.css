@@ -1,0 +1,97 @@
+.filters-group-container {
+  width: 30%;
+  min-width: 240px;
+  max-width: 300px;
+  margin-top: 48px;
+  flex-shrink: 0;
+}
+.sort-by-conatainer {
+  max-width: 265px;
+}
+hr {
+  width: 87%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: #7e858e solid 1px;
+}
+.employmenttype-heading {
+  color: #f8fafc;
+  font-size: 17px;
+  font-family: 'Roboto';
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.employmenttype-list {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.label {
+  color: aliceblue;
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.salaryranges-List {
+  padding-left: 0px;
+}
+.job-details-container {
+  margin-left: 40px;
+}
+.search-container {
+  display: flex;
+  border: #64748b solid 1.5px;
+  border-radius: 3px;
+  width: 93%;
+  margin-bottom: 25px;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  width: 40vw;
+  font-size: 15px;
+  font-weight: 600;
+  color: #64748b;
+}
+.search-btn {
+  background-color: #272727;
+  border: none;
+  outline: none;
+  width: 4.5vw;
+}
+.search-icon {
+  color: white;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 767px) {
+  .filters-group-container {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 10px;
+  }
+  hr {
+    width: 100%;
+  }
+  .employmenttype-list {
+    margin-bottom: 10px;
+  }
+  .job-details-container {
+    margin-left: 40px;
+  }
+  .search-container {
+    border-radius: 5px;
+    width: 100%;
+  }
+  .search-input {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .search-btn {
+    width: 15vw;
+  }
+}

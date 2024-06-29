@@ -59,7 +59,7 @@ class LoginForm extends Component {
       <div className="loginform-bg-container">
         <div className="loginform-container">
           <img
-            className="website-logo"
+            className="login-website-logo"
             src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
             alt="website logo"
           />

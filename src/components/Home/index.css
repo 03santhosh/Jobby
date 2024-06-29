@@ -16,7 +16,7 @@
 }
 .home-description {
   font-family: 'Roboto';
-  color: #f1f5f9;
+  color: #cbd5e1;
   font-size: 23px;
   max-width: 600px;
   line-height: 1.5;
@@ -34,4 +34,28 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .home-bg-container {
+    background-size: cover;
+    height: 90vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    padding: 45px 20px;
+  }
+  .home-heading {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  .home-description {
+    font-size: 15.5px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  .find-jobs-btn {
+    height: 5vh;
+    width: 30vw;
+    border-radius: 8px;
+  }
 }

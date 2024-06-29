@@ -1,3 +1,35 @@
 .skill-list-card {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin-bottom: 60px;
+}
+.skill-list-container {
+  display: flex;
+}
+.skill-list-img {
+  height: 10vh;
+  margin-right: 10px;
+}
+.skill-list-name {
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+  align-self: center;
+}
+
+@media screen and (max-width:767px) {
+  .skill-list-card {
+  width: 50%;
+  margin-bottom: 50px;
+}
+.skill-list-img {
+  height: 4vh;
+}
+.skill-list-name {
+  font-size: 15px;
+}
+
 }

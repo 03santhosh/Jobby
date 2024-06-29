@@ -8,7 +8,7 @@
 .profiledetails-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
   height: 190px;
-  width: 260px;
+  width: 100%;
   background-size: cover;
   padding: 25px 15px;
   border-radius: 20px;
@@ -30,7 +30,7 @@
   font-weight: 500;
   font-family: 'Roboto';
 }
-.retry-btn {
+.profile-retry-btn {
   background-color: #4f46e5;
   border: none;
   outline: none;
@@ -41,4 +41,13 @@
   font-size: 12px;
   font-family: 'Roboto';
   font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-container {
+    width: 100%;
+  }
+  .profiledetails-container {
+    width: 100%;
+  }
 }

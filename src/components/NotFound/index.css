@@ -18,7 +18,27 @@
   margin-bottom: 30px;
 }
 .notfound-description {
-  color: #cbd5e1;
+  color: #7e858e;
   font-size: 17px;
   font-family: 'Roboto';
+}
+
+@media screen and (max-width:767px) {
+  .notfound-bg-container {
+  height: 100vh;
+}
+.notfound-img {
+  width: 70vw;
+  margin-bottom: 30px;
+}
+.notfound-heading {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.notfound-description {
+  font-size: 14px;
+  max-width:75%;
+  text-align: center;
+}
+
 }
