@@ -49,11 +49,11 @@ class ProfileDetails extends Component {
   renderSuccessView = () => {
     const {profileDetails} = this.state
     // console.log(profileDetails)
-    const {name, profileImageUrl, shortBio} = profileDetails
+    const {profileImageUrl, shortBio} = profileDetails
     return (
       <div className="profiledetails-container">
         <img className="profile-img" src={profileImageUrl} alt="profile" />
-        <h1 className="profile-name">{name}</h1>
+        <h1 className="profile-name">Santhosh M</h1>
         <p className="profile-bio">{shortBio}</p>
       </div>
     )
